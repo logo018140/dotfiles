@@ -1,0 +1,8 @@
+[Unit]
+Description=Noisetorch using pipewire
+
+[Service]
+ExecStart=/home/lfron/nt-pw-poc
+
+[Install]
+WantedBy=sound.target
