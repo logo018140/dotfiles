@@ -1,7 +1,7 @@
 /* import a css file containing variables, but with no pseudo classes */
 @import url('/home/lfron/.cache/wal/colors-waybar.css');
 
-@define-color bar_bg alpha(@background, 0.5);
+@define-color bar_bg alpha(@background, $alpha);
 
 * {
     border: none;
