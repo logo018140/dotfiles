@@ -115,15 +115,12 @@ window#waybar {
 }
 
 #pulseaudio {
-    color: black;
 }
 
 #pulseaudio.muted {
-    color: #2a5c45;
 }
 
 #custom-spotify {
-    color: #2a5c45;
 }
 
 #tray {
