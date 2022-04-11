@@ -98,6 +98,9 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
 #export MESA_WHICH_LLVM=1
+export _microarchitecture=14
+export use_tracers=n use_numa=n
+export _localmodcfg=y
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh

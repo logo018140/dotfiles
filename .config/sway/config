@@ -3,6 +3,7 @@ set $term kitty
 #set $menu j4-dmenu-desktop --dmenu='BEMENU_BACKEND=wayland bemenu -n -i -m -1' | swaymsg
 set $menu wofi --show=drun --hide-scroll | xargs swaymsg exec --
 #set $menu BEMENU_BACKEND=wayland bemenu -b --ignorecase
+
 include "$HOME/.cache/wal/colors-sway"
 
 # class                 border    backgr.   text      indicator child_border
@@ -22,11 +23,8 @@ for_window [floating] border pixel 6
 gaps inner 5
 gaps outer 2
 
-
 output DP-2 mode 2560x1440@144.003998Hz pos 0 140
 output HDMI-A-1 mode 1920x1080@165.003006Hz pos 2560 0 transform 270
-#output "*" bg /usr/share/backgrounds/archlinux/mountain.jpg fill
-#output "*" bg /home/lfron/backgrounds/spacelake.jpeg fill
 
 input "1133:16500:Logitech_G305" {
 	accel_profile "flat"
@@ -34,6 +32,7 @@ input "1133:16500:Logitech_G305" {
 }
 
 for_window [class="steam_app*"] inhibit_idle focus
+for_window [class="ffxiv_dx11.exe"] inhibit_idle open
 
 ### Key bindings
 #
@@ -139,9 +138,6 @@ for_window [class="steam_app*"] inhibit_idle focus
     # If there are multiple scratchpad windows, this command cycles through them.
     bindsym $mod+minus scratchpad show
 
-# capture replay
-#bindsym $mod+r exec replay-sorcery save
-
 # capture all screens to clipboard    
 bindsym Shift+Print exec grim - | wl-copy    
 
@@ -163,7 +159,7 @@ bindsym $mod+Shift+l exec $HOME/.config/swaylock/lock.sh 50
 bindsym $mod+l exec swaylock -efF --color 000000FF
 
 font pango:monospace 8
-titlebar_padding 7 1
+#titlebar_padding 7 1
 set $my_cursor capitaine-cursors
 set $my_cursor_size 24
 seat seat0 xcursor_theme $my_cursor $my_cursor_size
