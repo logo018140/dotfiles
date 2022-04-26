@@ -24,7 +24,7 @@ ZSH_THEME="avit"
 # HYPHEN_INSENSITIVE="true"
 
 # Uncomment one of the following lines to change the auto-update behavior
-# zstyle ':omz:update' mode disabled  # disable automatic updates
+zstyle ':omz:update' mode disabled  # disable automatic updates
 # zstyle ':omz:update' mode auto      # update automatically without asking
 # zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
@@ -89,11 +89,11 @@ else
 fi
 
 # PATH
-export PATH=$PATH:~/.local/bin
-export PATH=$PATH:~/bin
+#export PATH=$PATH:~/.local/bin
+#export PATH=$PATH:~/bin
 
 # Library path
-export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
+#export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
@@ -101,6 +101,7 @@ export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/usr/local/lib
 export _microarchitecture=14
 export use_tracers=n use_numa=n
 export _localmodcfg=y
+export _projectc='bmq'
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -117,5 +118,6 @@ if [[ ! -d $ZSH_CACHE_DIR ]]; then
   mkdir $ZSH_CACHE_DIR
 fi
 
-#(cat ~/.cache/wal/sequences && clear &)
+(cat ~/.cache/wal/sequences && clear &)
 eval "$(pyenv init -)"
+export GPG_TTY=$(tty)

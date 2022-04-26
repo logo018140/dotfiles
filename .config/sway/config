@@ -1,5 +1,5 @@
 set $mod Mod4
-set $term kitty
+set $term alacritty
 #set $menu j4-dmenu-desktop --dmenu='BEMENU_BACKEND=wayland bemenu -n -i -m -1' | swaymsg
 set $menu wofi --show=drun --hide-scroll | xargs swaymsg exec --
 #set $menu BEMENU_BACKEND=wayland bemenu -b --ignorecase
@@ -33,6 +33,7 @@ input "1133:16500:Logitech_G305" {
 
 for_window [class="steam_app*"] inhibit_idle focus
 for_window [class="ffxiv_dx11.exe"] inhibit_idle open
+for_window [class="Unity"] floating enable
 
 ### Key bindings
 #
@@ -144,8 +145,13 @@ bindsym Shift+Print exec grim - | wl-copy
 # capture the specified screen area to clipboard    
 bindsym $mod+Shift+s exec grim -g "$(slurp)" - | wl-copy
 
+bindsym $mod+Shift+d exec grim -g "$(slurp)"
+
 # capture the focused monitor to clipboard    
 bindsym Control+Print exec grim -o $(swaymsg -t get_outputs | jq -r '.[] | select(.focused) 
+
+#generate ffxiv otp
+bindsym $mod+o exec python ~/bin/ffxiv-otp.py
 
 #reload waybar
 exec_always "$HOME/.config/waybar/run.sh"

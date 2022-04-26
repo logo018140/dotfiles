@@ -55,11 +55,16 @@
         "on-click": "pavucontrol"
     },
     "custom/spotify": {
-	"format": "{}",
+	"format": "{icon} {}",
 	"return-type": "json",
-	"exec": "$HOME/.config/waybar/custom_modules/mediaplayer.py",
-	"exec-if": "pgrep spotify",
-        "on-click": "playerctl play-pause --player=spotify",
-        "on-click-right": "playerctl next --player=spotify"
+	"max-length": 40,
+    "format-icons": {
+        "spotify": "",
+        "default": "🎜"
+    },
+	"escape": true,
+	"exec": "$HOME/.config/waybar/custom_modules/mediaplayer.py --player spotify 2> /dev/null",
+    "on-click": "playerctl play-pause --player=spotify",
+    "on-click-right": "playerctl next --player=spotify"
     }
 }
