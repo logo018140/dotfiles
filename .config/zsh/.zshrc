@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-#export PATH=$HOME/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
@@ -41,7 +41,7 @@ zstyle ':omz:update' mode disabled  # disable automatic updates
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
- ENABLE_CORRECTION="true"
+ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # You can also set it to another string to have that shown instead of the default red dots.
@@ -52,7 +52,7 @@ COMPLETION_WAITING_DOTS="true"
 # Uncomment the following line if you want to disable marking untracked files
 # under VCS as dirty. This makes repository status check for large repositories
 # much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
+DISABLE_UNTRACKED_FILES_DIRTY="true"
 
 # Uncomment the following line if you want to change the command execution time
 # stamp shown in the history command output.
@@ -70,7 +70,7 @@ HIST_STAMPS="yyyy-mm-dd"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=()
 
 source $ZSH/oh-my-zsh.sh
 
@@ -97,11 +97,6 @@ fi
 
 # Compilation flags
 # export ARCHFLAGS="-arch x86_64"
-#export MESA_WHICH_LLVM=1
-export _microarchitecture=14
-export use_tracers=n use_numa=n
-export _localmodcfg=y
-export _projectc='bmq'
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
@@ -112,12 +107,9 @@ export _projectc='bmq'
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias music="ncmpcpp"
-
-ZSH_CACHE_DIR=$HOME/.cache/oh-my-zsh
-if [[ ! -d $ZSH_CACHE_DIR ]]; then
-  mkdir $ZSH_CACHE_DIR
-fi
+alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
+alias ls="exa -lhg --group-directories-first"
 
 (cat ~/.cache/wal/sequences && clear &)
-eval "$(pyenv init -)"
 export GPG_TTY=$(tty)
+compinit -d $XDG_CACHE_HOME/zsh/zcompdump-$ZSH_VERSION

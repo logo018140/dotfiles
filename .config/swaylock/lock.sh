@@ -72,5 +72,6 @@ swaylock \
   --text-wrong-color 00000000 \ #"$color5" \
   --text-ver-color 00000000 \ #"$color4" \
   --separator-color 00000000 \
-  
-
+  --grace 10 \
+  --grace-no-mouse \
+  --ignore-empty-password \

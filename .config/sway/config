@@ -1,8 +1,7 @@
+exec --no-startup-id dbus-update-activation-environment --all
 set $mod Mod4
 set $term alacritty
-#set $menu j4-dmenu-desktop --dmenu='BEMENU_BACKEND=wayland bemenu -n -i -m -1' | swaymsg
 set $menu wofi --show=drun --hide-scroll | xargs swaymsg exec --
-#set $menu BEMENU_BACKEND=wayland bemenu -b --ignorecase
 
 include "$HOME/.cache/wal/colors-sway"
 
@@ -31,9 +30,13 @@ input "1133:16500:Logitech_G305" {
 	pointer_accel 0
 }
 
+input "3141:25903:Glorious_GMMK_FULL_Keyboard" xkb_numlock enable
+
 for_window [class="steam_app*"] inhibit_idle focus
 for_window [class="ffxiv_dx11.exe"] inhibit_idle open
-for_window [class="Unity"] floating enable
+for_window [class="Citra"] inhibit_idle open
+for_window [app_id="mpv"] inhibit_idle focus
+for_window [app_id="mpv"] floating enable
 
 ### Key bindings
 #
@@ -153,6 +156,17 @@ bindsym Control+Print exec grim -o $(swaymsg -t get_outputs | jq -r '.[] | selec
 #generate ffxiv otp
 bindsym $mod+o exec python ~/bin/ffxiv-otp.py
 
+#media
+bindsym XF86AudioRaiseVolume exec pactl set-sink-volume @DEFAULT_SINK@ +5%
+bindsym XF86AudioLowerVolume exec pactl set-sink-volume @DEFAULT_SINK@ -5%
+bindsym XF86AudioMute exec pactl set-sink-mute @DEFAULT_SINK@ toggle
+bindsym XF86AudioMicMute exec pactl set-source-mute @DEFAULT_SOURCE@ toggle
+bindsym XF86MonBrightnessDown exec brightnessctl set 5%-
+bindsym XF86MonBrightnessUp exec brightnessctl set 5%+
+bindsym XF86AudioPlay exec playerctl play-pause
+bindsym XF86AudioNext exec playerctl next
+bindsym XF86AudioPrev exec playerctl previous
+
 #reload waybar
 exec_always "$HOME/.config/waybar/run.sh"
 
@@ -162,7 +176,6 @@ exec_always sh $HOME/.config/sway/swayidle.sh
 
 # enable lock ($mod+shift+l)
 bindsym $mod+Shift+l exec $HOME/.config/swaylock/lock.sh 50
-bindsym $mod+l exec swaylock -efF --color 000000FF
 
 font pango:monospace 8
 #titlebar_padding 7 1
@@ -175,5 +188,8 @@ exec_always {
     gsettings set org.gnome.desktop.interface gtk-theme "Adapta-Nokto"
     gsettings set org.gnome.desktop.interface icon-theme "Papirus-Dark"
 }
-exec /usr/bin/polkit-dumb-agent
-exec steam-native -silent
+#exec dbus-update-activation-environment --systemd DISPLAY WAYLAND_DISPLAY SWAYSOCK
+exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec steam -silent
+exec openrgb --startminimized
+exec easyeffects --gapplication-service

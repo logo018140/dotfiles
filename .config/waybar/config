@@ -1,10 +1,11 @@
-{
+[{
+    "output": "DP-2",
     "layer": "top",
     "position": "top",
     "height": 30,
-    "modules-left": ["sway/workspaces", "sway/mode"],
+    "modules-left": ["sway/workspaces"],
     "modules-center": ["sway/window"],
-    "modules-right": ["custom/spotify", "pulseaudio", "network", "cpu", "memory", "tray", 
+    "modules-right": ["mpd", "pulseaudio", "network", "cpu", "memory", "tray", 
                       "clock"],
     // Modules configuration
     "sway/workspaces": {
@@ -15,10 +16,6 @@
             "urgent": " ",
             "default" : ""
         }
-    },
-    "sway/mode": {
-        "format": "<span style=\"normal\">{}</span>",
-        "on-click": "swaymsg 'mode \"resize\"'"
     },
     "tray": {
         "spacing": 10
@@ -39,32 +36,92 @@
         "format-disconnected": "Disconnected ⚠"
     },
     "pulseaudio": {
-        //"scroll-step": 1,
-        "format": "{volume}% {icon}",
-        "format-bluetooth": "{volume}% {icon}",
-        "format-muted": "",
-        "format-icons": {
-            "headphones": "",
-            "handsfree": "",
-            "headset": "",
-            "phone": "",
-            "portable": "",
-            "car": "",
-            "default": ["", ""]
-        },
+        "scroll-step": 1,
+        "format": "{volume}% 🔊",
+        "format-muted": "🔈",
         "on-click": "pavucontrol"
     },
-    "custom/spotify": {
-	"format": "{icon} {}",
-	"return-type": "json",
-	"max-length": 40,
-    "format-icons": {
-        "spotify": "",
-        "default": "🎜"
-    },
-	"escape": true,
-	"exec": "$HOME/.config/waybar/custom_modules/mediaplayer.py --player spotify 2> /dev/null",
-    "on-click": "playerctl play-pause --player=spotify",
-    "on-click-right": "playerctl next --player=spotify"
+    "mpd": {
+        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{artist} - {title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})",
+        "format-disconnected": "Disconnected",
+        "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped",
+        "unknown-tag": "N/A",
+        "interval": 2,
+        "consume-icons": {
+            "on": " "
+        },
+        "random-icons": {
+            "off": "<span color=\"#f53c3c\"></span> ",
+            "on": " "
+        },
+        "repeat-icons": {
+            "on": " "
+        },
+        "single-icons": {
+            "on": "1 "
+        },
+        "state-icons": {
+            "paused": "",
+            "playing": ""
+        },
+        "tooltip-format": "MPD (connected)",
+        "tooltip-format-disconnected": "MPD (disconnected)"
     }
-}
+},  {
+    "output": "HDMI-A-1",
+    "layer": "top",
+    "position": "top",
+    "height": 25,
+    "modules-left": ["sway/workspaces"],
+    "modules-center": ["sway/window"],
+    "modules-right": ["mpd", "pulseaudio", "tray", "clock"],
+    // Modules configuration
+    "sway/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{name}{icon}",
+        "format-icons": {
+            "urgent": " ",
+            "default" : ""
+        }
+    },
+    "tray": {
+        "spacing": 5,
+        "icon-size": 15
+    },
+    "clock": {
+        "format-alt": "{:%Y-%m-%d}"
+    },
+    "pulseaudio": {
+        "scroll-step": 1,
+        "format": "{volume}% 🔊",
+        "format-muted": "🔈",
+        "on-click": "pavucontrol"
+    },
+    "mpd": {
+        "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{title} ({elapsedTime:%M:%S}/{totalTime:%M:%S})",
+        "format-disconnected": "Disconnected",
+        "format-stopped": "{consumeIcon}{randomIcon}{repeatIcon}{singleIcon}Stopped",
+        "unknown-tag": "N/A",
+        "interval": 2,
+        "consume-icons": {
+            "on": " "
+        },
+        "random-icons": {
+            "off": "<span color=\"#f53c3c\"></span> ",
+            "on": " "
+        },
+        "repeat-icons": {
+            "on": " "
+        },
+        "single-icons": {
+            "on": "1 "
+        },
+        "state-icons": {
+            "paused": "",
+            "playing": ""
+        },
+        "tooltip-format": "MPD (connected)",
+        "tooltip-format-disconnected": "MPD (disconnected)"
+    }
+}]
