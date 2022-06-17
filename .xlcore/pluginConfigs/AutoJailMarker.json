@@ -1,0 +1,15 @@
+{
+  "$type": "AutoJailMarker.Data.AutoJailMarkerConfig, AutoJailMarker",
+  "Prio": [
+    "Zerthule Demonsbane",
+    "Purrnyan Mew'uwu",
+    "Elisa Evergrande",
+    "Rose Eostre",
+    "Anzu Musa",
+    "Dio Devilcryis",
+    "Dev Ro",
+    "Spooky Memes"
+  ],
+  "FullEcho": true,
+  "Version": 0
+}

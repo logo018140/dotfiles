@@ -1,0 +1,325 @@
+﻿{
+  "Version": 1,
+  "Name": "Default",
+  "Settings": {
+    "1k_facepaints": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "bloodspiller": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "compiled player illybites": {
+      "Settings": {},
+      "Priority": 1,
+      "Enabled": true
+    },
+    "Dark Deep Dungeon Revised": {
+      "Settings": {},
+      "Priority": 1,
+      "Enabled": true
+    },
+    "Eyeworks": {
+      "Settings": {},
+      "Priority": 2,
+      "Enabled": false
+    },
+    "Face Defined": {
+      "Settings": {
+        "Hyur Midlander": 3,
+        "Hyur Highlander": 3,
+        "Elezen": 3,
+        "Miqote": 3,
+        "Lalafell": 3,
+        "Roegadyn": 3,
+        "AuRa": 2,
+        "Hrothgar": 1,
+        "Viera": 3,
+        "User Permissions": 0,
+        "Credits": 0,
+        "Final Note": 0
+      },
+      "Priority": 1,
+      "Enabled": true
+    },
+    "Hrothgar Material Fix": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "kart accessory": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "kart demihuman": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "kart equipment recommended": {
+      "Settings": {},
+      "Priority": 1,
+      "Enabled": true
+    },
+    "kart equipment updates": {
+      "Settings": {},
+      "Priority": 2,
+      "Enabled": true
+    },
+    "kart faces": {
+      "Settings": {},
+      "Priority": 2,
+      "Enabled": true
+    },
+    "kart hair 4x compressed": {
+      "Settings": {},
+      "Priority": 3,
+      "Enabled": true
+    },
+    "kart npc illybites": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "kart npcs": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "kart weapons": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "kart world textures": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "kart world textures endwalker": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "kart world textures stormblood": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "Material UI": {
+      "Settings": {
+        "Selected Window": 0,
+        "Non-Selected Window": 0,
+        "Party and Alliance Background": 1,
+        "Gauges": 4,
+        "Minimap": 4,
+        "Macro Gear Icon": 1,
+        "Chatlog Resize Symbol": 0,
+        "Main Command Icons": 0,
+        "Job Icons - Party List": 4,
+        "Job Icons - Contents": 3,
+        "Job Icons - Macro": 3,
+        "Party List Target": 1,
+        "Materia Icons": 1,
+        "Enmity Symbol": 2,
+        "Marketboard Icons": 1,
+        "Limit Break": 1,
+        "Target Castbar": 1,
+        "Target Info": 1,
+        "Experience Bar": 0,
+        "Party List Bars": 1,
+        "Nameplate Bar": 1,
+        "Target Cursor": 1
+      },
+      "Priority": 0,
+      "Enabled": true
+    },
+    "Owl's Eyes of Eorzea": {
+      "Settings": {},
+      "Priority": 2,
+      "Enabled": true
+    },
+    "Upper Lorfangs Lower Illybites - All Female Keeper Faces v1.4": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "Upper Lorfangs Lower Illybites - All Male Keeper Faces v1.1": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "Veena Hotfix": {
+      "Settings": {},
+      "Priority": 2,
+      "Enabled": true
+    },
+    "[DRK] (AoE) Salted Earth = Carnal Chill": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "[DRK] (Attack) Flood of Shadow = Dark Passenger": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "[DRK] (Attack) Hard Slash = Power Slash": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "[DRK] (Attack) Syphon Strike = Scourge": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "[DRK] (Buff) Dark Mind = Shadowskin": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "[DRK] Shadowy Scourge": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "[DRK] Souleater = Old Delirium": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "[NB] ALL - Soft": {
+      "Settings": {},
+      "Priority": 1,
+      "Enabled": true
+    },
+    "[NB] Faces": {
+      "Settings": {},
+      "Priority": 2,
+      "Enabled": true
+    },
+    "[DRK] (Ranged) Abyssal Drain = Sole Survivor": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "quietus": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "carve and spit": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "unleash": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "abyssaldrain": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "[DRK] (AoE) Salted Earth = Brimstone": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "[DRK] (Attack) Flood of Shadow = Tar Pit": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "[DRK] (Attack) Flood of Shadow = Sole Survivor": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "drk": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "[DRK] (Attack) Quietus = Tar Pit": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "Hair Defined": {
+      "Settings": {
+        "Hyur - Midlander": 3,
+        "Hyur - Highlander": 3,
+        "Miqote": 3,
+        "Au Ra": 3,
+        "Elezen": 3,
+        "Lalafell": 3,
+        "Roegadyn": 3,
+        "Shadowbringers": 3,
+        "Endwalker": 1,
+        "Better Eyelashes, Eyebrows, and Beards": 131071,
+        "Extras": 31,
+        "Author Notes": 0
+      },
+      "Priority": 0,
+      "Enabled": false
+    },
+    "NPC Defined": {
+      "Settings": {
+        "A Realm Reborn": 65535,
+        "Heavensward": 255,
+        "Stormblood": 8191,
+        "Shadowbringers": 511,
+        "EVENT": 1,
+        "Endwalker Patch": 1,
+        "Misc. NPC": 1,
+        "The rest of Midlander": 3
+      },
+      "Priority": 3,
+      "Enabled": false
+    },
+    "[DRK] (Attack) Edge of Shadow = Old Reprisal": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "slim_eos": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "Slim and Bubba, Gator Faeries! Crocodile Skins": {
+      "Settings": {},
+      "Priority": 1,
+      "Enabled": true
+    },
+    "bubba_selene": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    },
+    "Face Defined Endwalker Patch": {
+      "Settings": {},
+      "Priority": 1,
+      "Enabled": true
+    },
+    "Viera M Veena Hotfix": {
+      "Settings": {},
+      "Priority": 2,
+      "Enabled": true
+    },
+    "[DRK] (Ranged) Abyssal Drain = Brimstone": {
+      "Settings": {},
+      "Priority": 0,
+      "Enabled": true
+    }
+  },
+  "Inheritance": []
+}

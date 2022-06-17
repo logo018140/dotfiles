@@ -1,0 +1,52 @@
+{
+  "$type": "ReAction.Configuration, ReAction",
+  "ActionStacks": [
+    {
+      "$type": "ReAction.Configuration+ActionStack, ReAction",
+      "Name": "Beneficial",
+      "Actions": [
+        {
+          "$type": "ReAction.Configuration+Action, ReAction",
+          "ID": 2,
+          "UseAdjustedID": false
+        }
+      ],
+      "Items": [
+        {
+          "$type": "ReAction.Configuration+ActionStackItem, ReAction",
+          "ID": 0,
+          "Target": 3
+        },
+        {
+          "$type": "ReAction.Configuration+ActionStackItem, ReAction",
+          "ID": 0,
+          "Target": 4
+        }
+      ],
+      "ModifierKeys": 0,
+      "BlockOriginal": false,
+      "CheckRange": true,
+      "CheckCooldown": true
+    }
+  ],
+  "EnableEnhancedAutoFaceTarget": true,
+  "EnableAutoDismount": true,
+  "EnableGroundTargetQueuing": true,
+  "EnableInstantGroundTarget": true,
+  "EnableAutoCastCancel": true,
+  "EnableAutoTarget": true,
+  "EnableAutoChangeTarget": true,
+  "EnableSpellAutoAttacks": true,
+  "EnableCameraRelativeDashes": false,
+  "EnableNormalBackwardDashes": false,
+  "EnableQueuingMore": true,
+  "EnableFPSAlignment": true,
+  "EnableAutoRefocusTarget": true,
+  "EnableDecomboMeditation": false,
+  "EnableDecomboMirageDive": false,
+  "EnableDecomboBunshin": false,
+  "EnableDecomboWanderersMinuet": false,
+  "EnableDecomboEarthlyStar": false,
+  "EnableDecomboLiturgy": false,
+  "Version": 0
+}

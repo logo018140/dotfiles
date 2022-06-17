@@ -1,0 +1,130 @@
+{
+  "$type": "SomethingNeedDoing.SomethingNeedDoingConfiguration, SomethingNeedDoing",
+  "Version": 1,
+  "RootFolder": {
+    "$type": "SomethingNeedDoing.FolderNode, SomethingNeedDoing",
+    "Name": "/",
+    "Children": [
+      {
+        "$type": "SomethingNeedDoing.FolderNode, SomethingNeedDoing",
+        "Name": "Levelling",
+        "Children": [
+          {
+            "$type": "SomethingNeedDoing.MacroNode, SomethingNeedDoing",
+            "Name": "20 Ishgard",
+            "Contents": "/ac \"Waste Not\" <wait.2>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Waste Not\" <wait.2>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Great Strides\" <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac Veneration <wait.2>\n/ac \"Basic Synthesis\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/echo Craft finished <se.1>",
+            "CraftingLoop": true,
+            "CraftLoopCount": 2
+          },
+          {
+            "$type": "SomethingNeedDoing.MacroNode, SomethingNeedDoing",
+            "Name": "60 Ishgard",
+            "Contents": "/ac \"Muscle Memory\" <wait.3>\n/ac \"Waste Not II\" <wait.2>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Master's Mend\" <wait.3>\n/ac Innovation <wait.2>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Great Strides\" <wait.2>\n/ac \"Byregot's Blessing\" <wait.3>\n/ac Veneration <wait.2>\n/ac \"Basic Synthesis\" <wait.3>\n/echo Craft finished <se.2>",
+            "CraftingLoop": true,
+            "CraftLoopCount": -1
+          },
+          {
+            "$type": "SomethingNeedDoing.MacroNode, SomethingNeedDoing",
+            "Name": "40 Ishgard",
+            "Contents": "/ac \"Waste Not\" <wait.2>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Waste Not\" <wait.2>\n/ac Innovation <wait.2>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac Veneration <wait.2>\n/ac \"Basic Synthesis\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/echo Craft finished <se.1>",
+            "CraftingLoop": true,
+            "CraftLoopCount": -1
+          },
+          {
+            "$type": "SomethingNeedDoing.MacroNode, SomethingNeedDoing",
+            "Name": "50 Ishgard",
+            "Contents": "/ac \"Waste Not II\" <wait.2>\n/ac Innovation <wait.2>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Basic Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac Innovation <wait.2>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Standard Touch\" <wait.3>\n/ac \"Great Strides\" <wait.2>\n/ac \"Byregot's Blessing\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/ac \"Basic Synthesis\" <wait.3>\n/echo Craft finished <se.1>",
+            "CraftingLoop": true,
+            "CraftLoopCount": 3
+          },
+          {
+            "$type": "SomethingNeedDoing.MacroNode, SomethingNeedDoing",
+            "Name": "75",
+            "Contents": "/ac \"Muscle Memory\" <wait.3>\n/ac Manipulation <wait.2>\n/ac \"Waste Not II\" <wait.2>\n/ac Groundwork <wait.3>\n/ac Innovation <wait.2>\n/ac \"Preparatory Touch\" <wait.3>\n/ac \"Preparatory Touch\" <wait.3>\n/ac \"Preparatory Touch\" <wait.3>\n/ac \"Preparatory Touch\" <wait.3>\n/ac Innovation <wait.2>\n/ac \"Great Strides\" <wait.2>\n/ac \"Byregot's Blessing\" <wait.3>\n/ac Veneration <wait.2>\n/ac Groundwork <wait.3>\n/echo Craft finished <se.1>",
+            "CraftingLoop": false,
+            "CraftLoopCount": 25
+          },
+          {
+            "$type": "SomethingNeedDoing.MacroNode, SomethingNeedDoing",
+            "Name": "80",
+            "Contents": "/ac \"Muscle Memory\" <wait.3>\n/ac Manipulation <wait.2>\n/ac \"Waste Not II\" <wait.2>\n/ac Groundwork <wait.3>\n/ac Innovation <wait.2>\n/ac \"Preparatory Touch\" <wait.3>\n/ac \"Preparatory Touch\" <wait.3>\n/ac \"Preparatory Touch\" <wait.3>\n/ac \"Preparatory Touch\" <wait.3>\n/ac \"Preparatory Touch\" <wait.3>\n/ac \"Great Strides\" <wait.2>\n/ac \"Byregot's Blessing\" <wait.3>\n/ac Veneration <wait.2>\n/ac Groundwork <wait.3>\n/ac Groundwork <wait.3>",
+            "CraftingLoop": true,
+            "CraftLoopCount": 19
+          }
+        ]
+      },
+      {
+        "$type": "SomethingNeedDoing.FolderNode, SomethingNeedDoing",
+        "Name": "90 Stuff",
+        "Children": [
+          {
+            "$type": "SomethingNeedDoing.MacroNode, SomethingNeedDoing",
+            "Name": "4300 70 durability 2 HQ mat",
+            "Contents": "/ac \"Muscle Memory\"\n/ac Manipulation\n/ac Veneration\n/ac \"Waste Not II\"\n/ac Groundwork\n/ac Groundwork\n/ac Innovation\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac Innovation\n/ac \"Prudent Touch\"\n/ac \"Prudent Touch\"\n/ac \"Prudent Touch\"\n/ac Innovation\n/ac \"Trained Finesse\"\n/ac \"Trained Finesse\"\n/ac \"Great Strides\"\n/ac \"Byregot's Blessing\"\n/ac \"Basic Synthesis\"\n/ac \"Basic Synthesis\"\n/echo Craft finished <se.2>",
+            "CraftingLoop": false,
+            "CraftLoopCount": 0
+          },
+          {
+            "$type": "SomethingNeedDoing.MacroNode, SomethingNeedDoing",
+            "Name": "3900 70 durability no hq mat",
+            "Contents": "/ac \"Muscle Memory\"\n/ac Manipulation\n/ac Veneration\n/ac \"Waste Not II\"\n/ac Groundwork\n/ac \"Delicate Synthesis\"\n/ac \"Delicate Synthesis\"\n/ac Innovation\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac Innovation\n/ac \"Preparatory Touch\"\n/ac \"Trained Finesse\"\n/ac \"Great Strides\"\n/ac \"Byregot's Blessing\"\n/ac Veneration\n/ac \"Careful Synthesis\"\n/echo Craft finished <se.2>",
+            "CraftingLoop": false,
+            "CraftLoopCount": 0
+          },
+          {
+            "$type": "SomethingNeedDoing.MacroNode, SomethingNeedDoing",
+            "Name": "3400 80 durability no hq mat",
+            "Contents": "/ac \"Muscle Memory\"\n/ac Manipulation\n/ac Innovation\n/ac \"Waste Not II\"\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Great Strides\"\n/ac \"Byregot's Blessing\"\n/ac Innovation\n/ac Groundwork\n/ac Groundwork\n/ac Groundwork\n/echo Craft finished <se.2>",
+            "CraftingLoop": false,
+            "CraftLoopCount": 0
+          },
+          {
+            "$type": "SomethingNeedDoing.MacroNode, SomethingNeedDoing",
+            "Name": "3400 80 durability 1 hq mat",
+            "Contents": "/ac \"Muscle Memory\"\n/ac Manipulation\n/ac Innovation\n/ac \"Waste Not II\"\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Byregot's Blessing\"\n/ac Veneration\n/ac Groundwork\n/ac Groundwork\n/echo Craft finished <se.2>",
+            "CraftingLoop": true,
+            "CraftLoopCount": 46
+          },
+          {
+            "$type": "SomethingNeedDoing.MacroNode, SomethingNeedDoing",
+            "Name": "35 dur mat hq",
+            "Contents": "/ac \"Muscle Memory\"\n/ac Manipulation\n/ac \"Waste Not II\"\n/ac Groundwork\n/ac Innovation\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Master's Mend\"\n/ac Innovation\n/ac \"Delicate Synthesis\"\n/ac \"Delicate Synthesis\"\n/ac \"Great Strides\"\n/ac \"Byregot's Blessing\"\n/ac Veneration\n/ac \"Careful Synthesis\"\n/echo Craft finished <se.2>",
+            "CraftingLoop": true,
+            "CraftLoopCount": 6
+          },
+          {
+            "$type": "SomethingNeedDoing.MacroNode, SomethingNeedDoing",
+            "Name": "88 mat hq",
+            "Contents": "/ac \"Muscle Memory\"\n/ac Manipulation\n/ac \"Waste Not II\"\n/ac Innovation\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Byregot's Blessing\"\n/ac Groundwork\n/echo Craft finished <se.2>",
+            "CraftingLoop": false,
+            "CraftLoopCount": 2
+          }
+        ]
+      },
+      {
+        "$type": "SomethingNeedDoing.FolderNode, SomethingNeedDoing",
+        "Name": "Misc",
+        "Children": [
+          {
+            "$type": "SomethingNeedDoing.MacroNode, SomethingNeedDoing",
+            "Name": "Palm sugar",
+            "Contents": "/ac \"Muscle Memory\"\n/ac Manipulation\n/ac \"Waste Not II\"\n/ac Innovation\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Preparatory Touch\"\n/ac \"Byregot's Blessing\"\n/ac Groundwork\n/echo Craft finished <se.2>",
+            "CraftingLoop": false,
+            "CraftLoopCount": 62
+          }
+        ]
+      }
+    ]
+  },
+  "CraftSkip": true,
+  "SmartWait": true,
+  "QualitySkip": false,
+  "LoopTotal": false,
+  "LoopEcho": false,
+  "DisableMonospaced": false,
+  "CraftLoopFromRecipeNote": true,
+  "CraftLoopMaxWait": 5,
+  "CraftLoopEcho": false,
+  "MaxTimeoutRetries": 0,
+  "NoisyErrors": false
+}
