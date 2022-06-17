@@ -1,0 +1,401 @@
+addonDir = "/home/lfron/Games/the-elder-scrolls-online/drive_c/users/lfron/Documents/Elder Scrolls Online/live/AddOns"
+
+[[addons]]
+name = "LuiExtended"
+url = "https://www.esoui.com/downloads/download818"
+dependency = false
+
+[[addons]]
+name = "AwesomeGuildStore"
+url = "https://www.esoui.com/downloads/download695"
+dependency = false
+
+[[addons]]
+name = "TamrielTradeCentre"
+url = "https://www.esoui.com/downloads/download1245"
+dependency = false
+
+[[addons]]
+name = "CombatMetrics"
+url = "https://www.esoui.com/downloads/download1360"
+dependency = false
+
+[[addons]]
+name = "CraftStoreFixedAndImproved"
+url = "https://www.esoui.com/downloads/download1590"
+dependency = false
+
+[[addons]]
+name = "USPF"
+url = "https://www.esoui.com/downloads/download1863"
+dependency = false
+
+[[addons]]
+name = "VotansImprovedOutfit"
+url = "https://www.esoui.com/downloads/download1921"
+dependency = false
+
+[[addons]]
+name = "VotansAchievementsOvw"
+url = "https://www.esoui.com/downloads/download1001"
+dependency = false
+
+[[addons]]
+name = "LoreBooks"
+url = "https://www.esoui.com/downloads/download288"
+dependency = false
+
+[[addons]]
+name = "SpentSkillPoints"
+url = "https://www.esoui.com/downloads/download303"
+dependency = false
+
+[[addons]]
+name = "HarvensImprovedSkillsWindow"
+url = "https://www.esoui.com/downloads/download489"
+dependency = false
+
+[[addons]]
+name = "pChat"
+url = "https://www.esoui.com/downloads/download93"
+dependency = false
+
+[[addons]]
+name = "Toolbox"
+url = "https://www.esoui.com/downloads/download176"
+dependency = false
+
+[[addons]]
+name = "Clarity"
+url = "https://www.esoui.com/downloads/download2874"
+dependency = false
+
+[[addons]]
+name = "PotionTakenSoundFix"
+url = "https://www.esoui.com/downloads/download2463"
+dependency = false
+
+[[addons]]
+name = "ImprovedDeathRecap"
+url = "https://www.esoui.com/downloads/download1319"
+dependency = false
+
+[[addons]]
+name = "TEB"
+url = "https://www.esoui.com/downloads/download2099"
+dependency = false
+
+[[addons]]
+name = "SkyShards"
+url = "https://www.esoui.com/downloads/download128"
+dependency = false
+
+[[addons]]
+name = "CraftingStations"
+url = "https://www.esoui.com/downloads/download668"
+dependency = false
+
+[[addons]]
+name = "HarvestMap"
+url = "https://www.esoui.com/downloads/download57"
+dependency = false
+
+[[addons]]
+name = "VotansKeybinder"
+url = "https://www.esoui.com/downloads/download1174"
+dependency = false
+
+[[addons]]
+name = "DarkUI"
+url = "https://www.esoui.com/downloads/download1576"
+dependency = false
+
+[[addons]]
+name = "CloudyBorderBegone"
+url = "https://www.esoui.com/downloads/download3293"
+dependency = false
+
+[[addons]]
+name = "Untaunted"
+url = "https://www.esoui.com/downloads/download1475"
+dependency = false
+
+[[addons]]
+name = "VotansAdaptiveSettings"
+url = "https://www.esoui.com/downloads/download1239"
+dependency = false
+
+[[addons]]
+name = "ArmorHUD"
+url = "https://www.esoui.com/downloads/download1006"
+dependency = false
+
+[[addons]]
+name = "ProvisionsTeamFormation"
+url = "https://www.esoui.com/downloads/download1135"
+dependency = false
+
+[[addons]]
+name = "SpamBam"
+url = "https://www.esoui.com/downloads/download571"
+dependency = false
+
+[[addons]]
+name = "Xynode"
+url = "https://www.esoui.com/downloads/download2362"
+dependency = false
+
+[[addons]]
+name = "GroupSpy"
+url = "https://www.esoui.com/downloads/download2114"
+dependency = false
+
+[[addons]]
+name = "GroupActivityFinderExtensions"
+url = "https://www.esoui.com/downloads/download2800"
+dependency = false
+
+[[addons]]
+name = "CurrencyBalancer"
+url = "https://www.esoui.com/downloads/download3196"
+dependency = false
+
+[[addons]]
+name = "HarvensExtendedStats"
+url = "https://www.esoui.com/downloads/download372"
+dependency = false
+
+[[addons]]
+name = "SlightlyImprovedExperienceBar"
+url = "https://www.esoui.com/downloads/download73"
+dependency = false
+
+[[addons]]
+name = "ZGESO"
+url = "https://www.esoui.com/downloads/download2062"
+dependency = false
+
+[[addons]]
+name = "MapPins"
+url = "https://www.esoui.com/downloads/download1881"
+dependency = false
+
+[[addons]]
+name = "Destinations"
+url = "https://www.esoui.com/downloads/download667"
+dependency = false
+
+[[addons]]
+name = "AccurateWorldMap"
+url = "https://www.esoui.com/downloads/download3377"
+dependency = false
+
+[[addons]]
+name = "VotansMiniMap"
+url = "https://www.esoui.com/downloads/download1399"
+dependency = false
+
+[[addons]]
+name = "VotansImprovedLocations"
+url = "https://www.esoui.com/downloads/download1096"
+dependency = false
+
+[[addons]]
+name = "VotansImprovedQuests"
+url = "https://www.esoui.com/downloads/download1523"
+dependency = false
+
+[[addons]]
+name = "HarvestRoute"
+url = "https://www.esoui.com/downloads/download3356"
+dependency = false
+
+[[addons]]
+name = "AlikrDolmenHelper"
+url = "https://www.esoui.com/downloads/download2399"
+dependency = false
+
+[[addons]]
+name = "DailyAlchemy"
+url = "https://www.esoui.com/downloads/download1899"
+dependency = false
+
+[[addons]]
+name = "DolgubonsLazySetCrafter"
+url = "https://www.esoui.com/downloads/download1697"
+dependency = false
+
+[[addons]]
+name = "DolgubonsLazyWritCreator"
+url = "https://www.esoui.com/downloads/download1346"
+dependency = false
+
+[[addons]]
+name = "DisplayNameFix"
+url = "https://www.esoui.com/downloads/download614"
+dependency = false
+
+[[addons]]
+name = "WeaponSprintSensitivityFix"
+url = "https://www.esoui.com/downloads/download2870"
+dependency = false
+
+[[addons]]
+name = "VotansSettingsMenu"
+url = "https://www.esoui.com/downloads/download1134"
+dependency = false
+
+[[addons]]
+name = "VotansAdvancedSettings"
+url = "https://www.esoui.com/downloads/download1482"
+dependency = false
+
+[[addons]]
+name = "has2lam"
+url = "https://www.esoui.com/downloads/download937"
+dependency = false
+
+[[addons]]
+name = "LibVotansAddonList"
+url = "https://www.esoui.com/downloads/download2094"
+dependency = false
+
+[[addons]]
+name = "InventoryGridView"
+url = "https://www.esoui.com/downloads/download65"
+dependency = false
+
+[[addons]]
+name = "AdvancedFilters"
+url = "https://www.esoui.com/downloads/download245"
+dependency = false
+
+[[addons]]
+name = "CustomCompassPins"
+url = "https://www.esoui.com/downloads/download185"
+dependency = true
+
+[[addons]]
+name = "LibAsync"
+url = "https://www.esoui.com/downloads/download2125"
+dependency = true
+
+[[addons]]
+name = "LibBinaryEncode"
+url = "https://www.esoui.com/downloads/download1647"
+dependency = true
+
+[[addons]]
+name = "LibChatMessage"
+url = "https://www.esoui.com/downloads/download2382"
+dependency = true
+
+[[addons]]
+name = "LibCombat"
+url = "https://www.esoui.com/downloads/download2528"
+dependency = true
+
+[[addons]]
+name = "LibCustomMenu"
+url = "https://www.esoui.com/downloads/download1146"
+dependency = true
+
+[[addons]]
+name = "LibDateTime"
+url = "https://www.esoui.com/downloads/download2277"
+dependency = true
+
+[[addons]]
+name = "LibDebugLogger"
+url = "https://www.esoui.com/downloads/download2275"
+dependency = true
+
+[[addons]]
+name = "LibFoodDrinkBuff"
+url = "https://www.esoui.com/downloads/download1902"
+dependency = true
+
+[[addons]]
+name = "LibGPS"
+url = "https://www.esoui.com/downloads/download601"
+dependency = true
+
+[[addons]]
+name = "LibGetText"
+url = "https://www.esoui.com/downloads/download2276"
+dependency = true
+
+[[addons]]
+name = "LibHarvensAddonSettings"
+url = "https://www.esoui.com/downloads/download584"
+dependency = true
+
+[[addons]]
+name = "LibLazyCrafting"
+url = "https://www.esoui.com/downloads/download1594"
+dependency = true
+
+[[addons]]
+name = "LibMainMenu-2.0"
+url = "https://www.esoui.com/downloads/download2118"
+dependency = true
+
+[[addons]]
+name = "LibMapData"
+url = "https://www.esoui.com/downloads/download3353"
+dependency = true
+
+[[addons]]
+name = "LibMapPing"
+url = "https://www.esoui.com/downloads/download1302"
+dependency = true
+
+[[addons]]
+name = "LibMapPins-1.0"
+url = "https://www.esoui.com/downloads/download563"
+dependency = true
+
+[[addons]]
+name = "LibMarify"
+url = "https://www.esoui.com/downloads/download2542"
+dependency = true
+
+[[addons]]
+name = "LibMediaProvider-1.0"
+url = "https://www.esoui.com/downloads/download56"
+dependency = true
+
+[[addons]]
+name = "LibPromises"
+url = "https://www.esoui.com/downloads/download2274"
+dependency = true
+
+[[addons]]
+name = "LibQuestData"
+url = "https://www.esoui.com/downloads/download2625"
+dependency = true
+
+[[addons]]
+name = "LibScroll"
+url = "https://www.esoui.com/downloads/download1151"
+dependency = true
+
+[[addons]]
+name = "LibTableFunctions-1.0"
+url = "https://www.esoui.com/downloads/download2624"
+dependency = true
+
+[[addons]]
+name = "LibTextFilter"
+url = "https://www.esoui.com/downloads/download1311"
+dependency = true
+
+[[addons]]
+name = "LibZone"
+url = "https://www.esoui.com/downloads/download2171"
+dependency = true
+
+[[addons]]
+name = "libAddonKeybinds"
+url = "https://www.esoui.com/downloads/download1253"
+dependency = true
