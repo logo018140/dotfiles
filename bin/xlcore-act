@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/usr/bin/env bash
 
 export WINEPREFIX="$HOME/.xlcore/wineprefix"
 export WINEDLLOVERRIDES=d3d9,d3d11,d3d10core,dxgi,mscoree=n

@@ -11,11 +11,6 @@ url = "https://www.esoui.com/downloads/download695"
 dependency = false
 
 [[addons]]
-name = "TamrielTradeCentre"
-url = "https://www.esoui.com/downloads/download1245"
-dependency = false
-
-[[addons]]
 name = "CombatMetrics"
 url = "https://www.esoui.com/downloads/download1360"
 dependency = false
@@ -38,11 +33,6 @@ dependency = false
 [[addons]]
 name = "VotansAchievementsOvw"
 url = "https://www.esoui.com/downloads/download1001"
-dependency = false
-
-[[addons]]
-name = "LoreBooks"
-url = "https://www.esoui.com/downloads/download288"
 dependency = false
 
 [[addons]]
@@ -83,11 +73,6 @@ dependency = false
 [[addons]]
 name = "TEB"
 url = "https://www.esoui.com/downloads/download2099"
-dependency = false
-
-[[addons]]
-name = "SkyShards"
-url = "https://www.esoui.com/downloads/download128"
 dependency = false
 
 [[addons]]
@@ -178,11 +163,6 @@ dependency = false
 [[addons]]
 name = "MapPins"
 url = "https://www.esoui.com/downloads/download1881"
-dependency = false
-
-[[addons]]
-name = "Destinations"
-url = "https://www.esoui.com/downloads/download667"
 dependency = false
 
 [[addons]]
@@ -399,3 +379,13 @@ dependency = true
 name = "libAddonKeybinds"
 url = "https://www.esoui.com/downloads/download1253"
 dependency = true
+
+[[addons]]
+name = "LibAddonMenu-2.0"
+url = "https://www.esoui.com/downloads/download7"
+dependency = false
+
+[[addons]]
+name = "SuppressErrorMessage"
+url = "https://www.esoui.com/downloads/download1486"
+dependency = false

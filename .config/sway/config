@@ -191,5 +191,4 @@ exec_always {
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
 exec steam -silent
 exec openrgb --startminimized
-exec easyeffects --gapplication-service
 exec ckb-next -b -p Default
