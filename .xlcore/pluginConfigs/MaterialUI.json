@@ -222,6 +222,13 @@
       "colors": {
         "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Numerics.Vector3, System.Private.CoreLib]], System.Private.CoreLib"
       }
+    },
+    "black_edge_icon_pack_vanilla": {
+      "$type": "MaterialUI.ModConfig, MaterialUI",
+      "enabled": false,
+      "colors": {
+        "$type": "System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib],[System.Numerics.Vector3, System.Private.CoreLib]], System.Private.CoreLib"
+      }
     }
   },
   "thirdPartyModRepos": [],

@@ -4,7 +4,7 @@
   "DutyFinderTaskbarFlash": true,
   "DutyFinderChatMessage": true,
   "LanguageOverride": "en",
-  "LastVersion": "6.4.0.18",
+  "LastVersion": "6.4.0.31",
   "LastChangelogMajorMinor": "6.4.",
   "GeneralChatType": 1,
   "DoPluginTest": true,
@@ -142,7 +142,14 @@
       "PartyIcons",
       "HighFpsPhysicsPlugin",
       "MapLinker",
-      "SkillDisplay"
+      "SkillDisplay",
+      "FlashOnTell",
+      "Dalamud.DiscordBridge",
+      "DeepDungeonDex",
+      "DeviceChangeFix",
+      "DSREyeLocator",
+      "MimicryHelper",
+      "PlayerTags"
     ]
   },
   "DevPluginSettings": {

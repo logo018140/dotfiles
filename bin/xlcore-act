@@ -9,19 +9,16 @@ export DXVK_ASYNC=1
 export WINEESYNC=1
 export WINEFSYNC=1
 
-export WINE_RUNNER="/opt/wine-xiv"
+export WINE_RUNNER="/home/lfron/.xlcore/compatibilitytool/beta/wine-xiv-staging-fsync-git-7.7.r14.gd7507fbe"
 export WINE_BIN="$WINE_RUNNER/bin"
 
-export RPATH="$WINE_RUNNER/lib/wine/i386-unix:$WINE_RUNNER/lib/wine/x86_64-unix"
-export LD_LIBRARY_PATH="$RPATH:/usr/lib:/usr/lib32"
-
-ACT_FOLDER="$XDG_DATA_HOME/ACT"
-ACT_PROGRAM="$ACT_FOLDER/Advanced Combat Tracker.exe"
+export ACT_FOLDER="$XDG_DATA_HOME/ACT"
+export ACT_PROGRAM="$ACT_FOLDER/Advanced Combat Tracker.exe"
 
 if [[ ! -f $ACT_PROGRAM ]]; then
     export WINE="$WINE_BIN/wine64"
     export WINESERVER="$WINE_BIN/wineserver"
-    winetricks -q dotnet48 win7
+    steam-run winetricks -q dotnet48 win7
 
     wget -O "/tmp/act.zip" "https://advancedcombattracker.com/includes/page-download.php?id=57" &> /dev/null
     mkdir -p "$ACT_FOLDER" &> /dev/null
@@ -29,19 +26,6 @@ if [[ ! -f $ACT_PROGRAM ]]; then
 
     mkdir "$ACT_FOLDER/AppData"
     ln -s "$ACT_FOLDER/AppData" "$WINEPREFIX/drive_c/users/$USER/AppData/Roaming/Advanced Combat Tracker"
-fi
-
-if [[ "$(patchelf --print-rpath "$WINE_BIN/wine" | grep '$ORIGIN')" != "" || "$(patchelf --print-rpath "$WINE_BIN/wine")" == "" ]]; then
-    sudo patchelf --set-rpath "$RPATH" "$WINE_BIN/wine"
-    sudo patchelf --set-rpath "$RPATH" "$WINE_BIN/wine64"
-    sudo patchelf --set-rpath "$RPATH" "$WINE_BIN/wineserver"
-
-    find "$WINE_RUNNER/lib/wine/i386-unix" -type f -exec  sudo patchelf --set-rpath "$RPATH" {} + &> /dev/null
-    find "$WINE_RUNNER/lib/wine/x86_64-unix" -type f -exec sudo patchelf --set-rpath "$RPATH" {} + &> /dev/null
-fi
-
-if [[ "$(patchelf --print-needed "$WINE_BIN/wineserver" | grep "libgamemodeauto.so.0")" == "" ]]; then
-    sudo patchelf --add-needed "libgamemodeauto.so.0" "$WINE_BIN/wineserver"
 fi
 
 if [[ "$(getcap "$WINE_BIN/wine")" == "" ]]; then

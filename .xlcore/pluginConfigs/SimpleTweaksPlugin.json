@@ -39,7 +39,10 @@
     "StopCraftingButton",
     "UiAdjustments@AlwaysYes",
     "ContentsFinderConfirmClassSwitch",
-    "UiAdjustments@StopCraftingButton"
+    "UiAdjustments@StopCraftingButton",
+    "TooltipTweaks@AdditionalItemInfo",
+    "TooltipTweaks@BlueActionInfo",
+    "TooltipTweaks@FoodStats"
   ],
   "HiddenTweaks": [],
   "CustomProviders": [],

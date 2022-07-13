@@ -111,11 +111,6 @@ url = "https://www.esoui.com/downloads/download1239"
 dependency = false
 
 [[addons]]
-name = "ArmorHUD"
-url = "https://www.esoui.com/downloads/download1006"
-dependency = false
-
-[[addons]]
 name = "ProvisionsTeamFormation"
 url = "https://www.esoui.com/downloads/download1135"
 dependency = false
@@ -128,11 +123,6 @@ dependency = false
 [[addons]]
 name = "Xynode"
 url = "https://www.esoui.com/downloads/download2362"
-dependency = false
-
-[[addons]]
-name = "GroupSpy"
-url = "https://www.esoui.com/downloads/download2114"
 dependency = false
 
 [[addons]]

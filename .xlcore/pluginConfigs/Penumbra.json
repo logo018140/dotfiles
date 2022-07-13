@@ -1,6 +1,5 @@
 {
-  "$type": "Penumbra.Configuration, Penumbra",
-  "Version": 3,
+  "Version": 4,
   "EnableMods": true,
   "ModDirectory": "Z:\\home\\lfron\\XIVMods",
   "HideUiInGPose": false,
@@ -12,25 +11,32 @@
   "UseCharacterCollectionInTryOn": true,
   "UseOwnerNameForCharacterCollection": true,
   "PreferNamedCollectionsOverOwners": false,
+  "UseDefaultCollectionForRetainers": false,
   "DebugMode": false,
   "EnableFullResourceLogging": false,
   "EnableResourceLogging": false,
   "ResourceLoggingFilter": "",
-  "SortMode": 1,
   "ScaleModSelector": true,
   "ModSelectorAbsoluteSize": 250.0,
   "ModSelectorScaledSize": 20,
   "OpenFoldersByDefault": false,
   "DefaultImportFolder": "",
+  "DeleteModModifier": {
+    "Modifier1": {
+      "Modifier": 17
+    },
+    "Modifier2": {
+      "Modifier": 16
+    }
+  },
   "FixMainWindow": false,
   "ShowAdvanced": false,
-  "DisableSoundStreaming": true,
+  "AutoDeduplicateOnImport": false,
   "EnableHttpApi": false,
   "DefaultModImportPath": "",
   "AlwaysOpenDefaultImport": false,
   "DefaultModAuthor": "Unknown",
   "Colors": {
-    "$type": "System.Collections.Generic.Dictionary`2[[Penumbra.UI.Classes.ColorId, Penumbra],[System.UInt32, System.Private.CoreLib]], System.Private.CoreLib",
     "EnabledMod": 4294967295,
     "DisabledMod": 4285032576,
     "UndefinedMod": 4286611584,
@@ -45,5 +51,6 @@
     "ItemId": 4286611584,
     "IncreasedMetaValue": 2147516416,
     "DecreasedMetaValue": 2147483776
-  }
+  },
+  "SortMode": "LexicographicalT"
 }

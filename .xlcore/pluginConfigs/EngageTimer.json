@@ -1,6 +1,5 @@
 {
   "$type": "EngageTimer.Configuration, EngageTimer",
-  "Version": 2,
   "CountdownAccurateCountdown": true,
   "FloatingWindowAccurateCountdown": true,
   "DisplayCountdown": true,
@@ -81,5 +80,6 @@
   "DtrCombatTimeDecimalPrecision": 0,
   "DtrCombatTimeAlwaysDisableOutsideDuty": false,
   "DtrCombatTimeEnableHideAfter": true,
-  "DtrCombatTimeHideAfter": 20.0
+  "DtrCombatTimeHideAfter": 20.0,
+  "Version": 2
 }

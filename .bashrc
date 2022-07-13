@@ -13,10 +13,10 @@ if [[ ! "$SSH_AUTH_SOCK" ]]; then
     source "$XDG_RUNTIME_DIR/ssh-agent.env" >/dev/null
 fi
 
-if [[ $(ps --no-header --pid=$PPID --format=comm) != "fish" && -z ${BASH_EXECUTION_STRING} ]]
-then
-        exec fish
-fi
+#if [[ $(ps --no-header --pid=$PPID --format=comm) != "fish" && -z ${BASH_EXECUTION_STRING} ]]
+#then
+#        exec fish
+#fi
 alias music="ncmpcpp"
 alias wget=wget --hsts-file="$XDG_DATA_HOME/wget-hsts"
 alias ls="exa -lhg --group-directories-first"
